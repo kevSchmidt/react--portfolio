@@ -1,8 +1,12 @@
 import React from "react";
+
 import { makeStyles, withStyles } from "@material-ui/core/styles";
 import { TextField, Typography, Button, Grid, Box } from "@material-ui/core";
 import SendIcon from "@material-ui/icons/Send";
+
 import Navbar from "./Navbar";
+
+// ========== CSS STYLES ===
 
 const useStyles = makeStyles((theme) => ({
   form: {
@@ -17,6 +21,8 @@ const useStyles = makeStyles((theme) => ({
     borderColor: "tomato",
   },
 }));
+
+// ========== INPUT FIELD ===
 
 const InputField = withStyles({
   root: {
@@ -39,6 +45,8 @@ const InputField = withStyles({
     },
   },
 })(TextField);
+
+// ========== CONTACTS ===
 
 const Contacts = () => {
   const classes = useStyles();
