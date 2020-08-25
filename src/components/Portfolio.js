@@ -1,4 +1,5 @@
 import React from "react";
+
 import { makeStyles } from "@material-ui/core/styles";
 import {
   Box,
@@ -13,6 +14,7 @@ import {
 } from "@material-ui/core";
 
 import Navbar from "./Navbar";
+
 import project1 from "../images/html-css-javascript-lg.jpg";
 import project2 from "../images/javascript-fullstack.jpg";
 import project3 from "../images/react-redux.jpg";

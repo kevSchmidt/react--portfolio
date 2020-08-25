@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+
 import { makeStyles } from "@material-ui/core/styles";
 import MobilRightMenuSlider from "@material-ui/core/Drawer";
-import Footer from "./Footer";
 import {
   AppBar,
   Toolbar,
@@ -23,9 +23,13 @@ import {
   Apps,
   ContactMail,
 } from "@material-ui/icons";
+
+import Footer from "./Footer";
+
 import avatar from "../avatar.png";
 
-// CSS STYLES
+// ========== CSS STYLES ===
+
 const useStyles = makeStyles((theme) => ({
   menuSliderContainer: {
     width: 250,
@@ -65,6 +69,8 @@ const menuItems = [
     listPath: "/contacts",
   },
 ];
+
+// ===== NAVBAR ===
 
 const Navbar = () => {
   const [state, setState] = useState({
