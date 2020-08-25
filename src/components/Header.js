@@ -1,10 +1,13 @@
 import React from "react";
+
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Avatar, Grid, Box } from "@material-ui/core";
 import Typed from "react-typed";
+
 import avatar from "../avatar.png";
 
-// CSS STYLES
+// ========== CSS STYLES ===
+
 const useStyles = makeStyles((theme) => ({
   avatar: {
     width: theme.spacing(15),
@@ -28,6 +31,8 @@ const useStyles = makeStyles((theme) => ({
     zIndex: 1,
   },
 }));
+
+// ========== HEADER ===
 
 const Header = () => {
   const classes = useStyles();

@@ -47,6 +47,8 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+// ========== MENU ITEMS ===
+
 const menuItems = [
   {
     listIcon: <Home />,

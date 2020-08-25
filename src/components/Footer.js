@@ -1,9 +1,13 @@
 import React from "react";
+
 import { makeStyles } from "@material-ui/styles";
 import { BottomNavigation, BottomNavigationAction } from "@material-ui/core";
+
 import Facebook from "@material-ui/icons/Facebook";
 import Twitter from "@material-ui/icons/Twitter";
 import Instagram from "@material-ui/icons/Instagram";
+
+// ========== CSS STYLES ===
 
 const useStyles = makeStyles({
   root: {
@@ -20,6 +24,8 @@ const useStyles = makeStyles({
     },
   },
 });
+
+// ========== FOOTER ===
 
 const Footer = () => {
   const classes = useStyles();

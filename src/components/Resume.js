@@ -5,7 +5,7 @@ import { Typography, Box } from "@material-ui/core";
 
 import Navbar from "./Navbar";
 
-// ========== CSS STYLE ===
+// ========== CSS STYLES ===
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
