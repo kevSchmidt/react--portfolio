@@ -18,6 +18,8 @@ import project2 from "../images/javascript-fullstack.jpg";
 import project3 from "../images/react-redux.jpg";
 import project4 from "../images/mern-stack.jpg";
 
+// ========== CSS STYLE ===
+
 const useStyles = makeStyles({
   mainContainer: {
     background: "#233",
@@ -28,6 +30,8 @@ const useStyles = makeStyles({
     margin: "5rem auto",
   },
 });
+
+// ========== PORTFOLIO ===
 
 const Portfolio = () => {
   const classes = useStyles();
