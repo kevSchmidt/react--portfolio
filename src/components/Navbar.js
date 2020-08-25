@@ -76,10 +76,13 @@ const Navbar = () => {
   const [state, setState] = useState({
     right: false,
   });
+
   const toggleSlider = (slider, open) => () => {
     setState({ ...state, [slider]: open });
   };
+
   const classes = useStyles();
+
   const sideList = (slider) => (
     <Box
       className={classes.menuSliderContainer}
