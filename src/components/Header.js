@@ -32,19 +32,25 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-// ========== HEADER ===
+// ========== HEADER COMPONENT ===
 
 const Header = () => {
   const classes = useStyles();
+
   return (
     <Box className={classes.typedContainer}>
       <Grid container justify="center">
+        {/* ---- Avatar ---- */}
         <Avatar className={classes.avatar} src={avatar} alt="Kevin Schmidt" />
       </Grid>
+
+      {/* ---- Name ---- */}
       <Typography className={classes.title} variant="h4">
         <Typed strings={["Kevin Schmidt"]} typeSpeed={40} />
       </Typography>
       <br />
+
+      {/* ---- Subtitle ---- */}
       <Typography className={classes.subtitle} variant="h5">
         <Typed
           strings={["Web Developer", "Web Designer", "React.js / Material-UI"]}

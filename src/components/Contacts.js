@@ -46,7 +46,7 @@ const InputField = withStyles({
   },
 })(TextField);
 
-// ========== CONTACTS ===
+// ========== CONTACTS COMPONENT ===
 
 const Contacts = () => {
   const classes = useStyles();
@@ -56,6 +56,7 @@ const Contacts = () => {
       <Navbar />
       <Grid container justify="center">
         <Box component="form" className={classes.form}>
+          {/* ---- Title ---- */}
           <Typography
             variant="h5"
             style={{
@@ -67,6 +68,7 @@ const Contacts = () => {
             Let's keep in touch...
           </Typography>
 
+          {/* ---- Name Field ---- */}
           <InputField
             fullWidth={true}
             label="Name"
@@ -77,6 +79,7 @@ const Contacts = () => {
           />
           <br />
 
+          {/* ---- Email Field ---- */}
           <InputField
             fullWidth={true}
             label="Email"
@@ -87,6 +90,7 @@ const Contacts = () => {
           />
           <br />
 
+          {/* ---- Company Field ---- */}
           <InputField
             fullWidth={true}
             label="Company name"
@@ -97,6 +101,7 @@ const Contacts = () => {
           />
           <br />
 
+          {/* Submit Button */}
           <Button
             className={classes.button}
             variant="outlined"

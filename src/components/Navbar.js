@@ -72,7 +72,7 @@ const menuItems = [
   },
 ];
 
-// ===== NAVBAR ===
+// ===== NAVBAR COMPONENT ===
 
 const Navbar = () => {
   const [state, setState] = useState({
@@ -91,8 +91,11 @@ const Navbar = () => {
       component="div"
       onClick={toggleSlider(slider, false)}
     >
+      {/* ---- Avatar ---- */}
       <Avatar className={classes.avatar} src={avatar} alt="Kevin Schmidt" />
       <Divider />
+
+      {/* ---- List Item ---- */}
       <List>
         {menuItems.map((lsItem, key) => (
           <ListItem button key={key} component={Link} to={lsItem.listPath}>
@@ -114,12 +117,17 @@ const Navbar = () => {
       <Box component="nav">
         <AppBar position="static" style={{ background: "#222" }}>
           <Toolbar>
+            {/* ---- Icon ---- */}
             <IconButton onClick={toggleSlider("right", true)}>
               <ArrowBack style={{ color: "tomato" }} />
             </IconButton>
+
+            {/* ---- Title ---- */}
             <Typography variant="h5" style={{ color: "tan" }}>
               Portfolio
             </Typography>
+
+            {/* ---- Mobil Slider ---- */}
             <MobilRightMenuSlider
               anchor="right"
               open={state.right}

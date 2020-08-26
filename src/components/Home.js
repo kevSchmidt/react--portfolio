@@ -15,7 +15,7 @@ const useStyles = makeStyles({
   },
 });
 
-// ========== HOME ===
+// ========== HOME COMPONENT ===
 
 const Home = () => {
   const classes = useStyles();
@@ -24,6 +24,8 @@ const Home = () => {
     <React.Fragment>
       <Navbar />
       <Header />
+
+      {/* ---- Background Animation ---- */}
       <Particles
         canvasClassName={classes.particlesCanva}
         params={{
@@ -32,22 +34,21 @@ const Home = () => {
               value: 45,
               density: {
                 enable: true,
-                value_area: 900,
+                value_area: 850,
               },
             },
             shape: {
               type: "circle",
               stroke: {
                 width: 1,
-                color: "tomato",
               },
             },
             size: {
-              value: 6,
+              value: 5,
               random: true,
               anim: {
                 enable: true,
-                speed: 5,
+                speed: 4,
                 size_min: 0.1,
                 sync: true,
               },

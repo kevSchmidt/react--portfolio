@@ -25,25 +25,28 @@ const useStyles = makeStyles({
   },
 });
 
-// ========== FOOTER ===
+// ========== FOOTER COMPONENT ===
 
 const Footer = () => {
   const classes = useStyles();
 
   return (
     <BottomNavigation width="auto" style={{ background: "#222" }}>
+      {/* ---- Facebook ---- */}
       <BottomNavigationAction
         className={classes.root}
         style={{ padding: 0 }}
         icon={<Facebook />}
       />
 
+      {/* ---- Twitter ---- */}
       <BottomNavigationAction
         className={classes.root}
         style={{ padding: 0 }}
         icon={<Twitter />}
       />
 
+      {/* ---- Instagram ---- */}
       <BottomNavigationAction
         className={classes.root}
         style={{ padding: 0 }}

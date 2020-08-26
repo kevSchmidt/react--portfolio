@@ -1,3 +1,4 @@
+/* -- background image -- */
 body {
   background: url(./coffee-apple.jpg) no-repeat center center fixed;
   -webkit-background: cover;

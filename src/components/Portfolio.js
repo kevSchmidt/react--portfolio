@@ -33,28 +33,34 @@ const useStyles = makeStyles({
   },
 });
 
-// ========== PORTFOLIO ===
+// ========== PORTFOLIO COMPONENT ===
 
 const Portfolio = () => {
   const classes = useStyles();
+
   return (
     <Box component="div" className={classes.mainContainer}>
       <Navbar />
       <Grid container justify="center">
-        {/* Project 1 */}
+        {/* ======== Project 1 === */}
         <Grid item xs={12} sm={8} md={6}>
           <Card className={classes.cardContainer}>
             <CardActionArea>
+              {/* ---- Image ---- */}
               <CardMedia
                 component="img"
                 alt="Project 1"
                 height="140"
                 image={project1}
               />
+
+              {/* ---- Title ---- */}
               <CardContent>
                 <Typography gutterBottom variant="h5">
                   Project 1
                 </Typography>
+
+                {/* ---- Text ---- */}
                 <Typography variant="body2" color="textSecondary" component="p">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Facilis, ducimus consectetur veritatis maxime aut deleniti
@@ -63,6 +69,8 @@ const Portfolio = () => {
                 </Typography>
               </CardContent>
             </CardActionArea>
+
+            {/* ---- Buttons ---- */}
             <CardActions>
               <Button size="small" color="primary">
                 Share
@@ -74,10 +82,11 @@ const Portfolio = () => {
           </Card>
         </Grid>
 
-        {/* Project 2 */}
+        {/* ======== Project 2 === */}
         <Grid item xs={12} sm={8} md={6}>
           <Card className={classes.cardContainer}>
             <CardActionArea>
+              {/* ---- Image ---- */}
               <CardMedia
                 component="img"
                 alt="Project 2"
@@ -85,9 +94,12 @@ const Portfolio = () => {
                 image={project2}
               />
               <CardContent>
+                {/* ---- Title ---- */}
                 <Typography gutterBottom variant="h5">
                   Project 2
                 </Typography>
+
+                {/* ---- Text ---- */}
                 <Typography variant="body2" color="textSecondary" component="p">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Facilis, ducimus consectetur veritatis maxime aut deleniti
@@ -96,6 +108,8 @@ const Portfolio = () => {
                 </Typography>
               </CardContent>
             </CardActionArea>
+
+            {/* ---- Buttons --- */}
             <CardActions>
               <Button size="small" color="primary">
                 Share
@@ -107,10 +121,11 @@ const Portfolio = () => {
           </Card>
         </Grid>
 
-        {/* Project 3 */}
+        {/* ======== Project 3 === */}
         <Grid item xs={12} sm={8} md={6}>
           <Card className={classes.cardContainer}>
             <CardActionArea>
+              {/* ---- Image ---- */}
               <CardMedia
                 component="img"
                 alt="Project 3"
@@ -118,9 +133,12 @@ const Portfolio = () => {
                 image={project3}
               />
               <CardContent>
+                {/* ---- Title ---- */}
                 <Typography gutterBottom variant="h5">
                   Project 3
                 </Typography>
+
+                {/* ---- Text ---- */}
                 <Typography variant="body2" color="textSecondary" component="p">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Facilis, ducimus consectetur veritatis maxime aut deleniti
@@ -129,6 +147,8 @@ const Portfolio = () => {
                 </Typography>
               </CardContent>
             </CardActionArea>
+
+            {/* ---- Buttons --- */}
             <CardActions>
               <Button size="small" color="primary">
                 Share
@@ -140,10 +160,11 @@ const Portfolio = () => {
           </Card>
         </Grid>
 
-        {/* Project 4 */}
+        {/* ======== Project 4 === */}
         <Grid item xs={12} sm={8} md={6}>
           <Card className={classes.cardContainer}>
             <CardActionArea>
+              {/* ---- Image ---- */}
               <CardMedia
                 component="img"
                 alt="Project 4"
@@ -151,9 +172,12 @@ const Portfolio = () => {
                 image={project4}
               />
               <CardContent>
+                {/* ---- Title ---- */}
                 <Typography gutterBottom variant="h5">
                   Project 4
                 </Typography>
+
+                {/* ---- Text ---- */}
                 <Typography variant="body2" color="textSecondary" component="p">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Facilis, ducimus consectetur veritatis maxime aut deleniti
@@ -162,6 +186,8 @@ const Portfolio = () => {
                 </Typography>
               </CardContent>
             </CardActionArea>
+
+            {/* ---- Buttons --- */}
             <CardActions>
               <Button size="small" color="primary">
                 Share

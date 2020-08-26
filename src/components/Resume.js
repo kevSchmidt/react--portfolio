@@ -107,31 +107,39 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-// ========== RESUME ===
+// ========== RESUME COMPONENT ===
 
 const Resume = () => {
   const classes = useStyles();
+
   return (
     <React.Fragment>
       <Navbar />
       <Box component="header" className={classes.mainContainer}>
+        {/* ---- Title --- */}
         <Typography variant="h4" align="center" className={classes.heading}>
           Working Experience
         </Typography>
+
         <Box component="div" className={classes.timeLine}>
+          {/* ======== First Timeline === */}
           <Typography
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
             2013
           </Typography>
+
+          {/* ---- Text ---- */}
           <Box component="div" className={classes.timeLineItem}>
             <Typography variant="h5" className={classes.subHeading}>
               Web Design
             </Typography>
+
             <Typography variant="body1" style={{ color: "tomato" }}>
               Company name where worked
             </Typography>
+
             <Typography variant="subtitle1" style={{ color: "tan" }}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
               voluptatem fuga doloribus quibusdam ratione delectus officia
@@ -139,19 +147,24 @@ const Resume = () => {
             </Typography>
           </Box>
 
+          {/* ======== Second Timeline === */}
           <Typography
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
             2014
           </Typography>
+
+          {/* ----Text ---- */}
           <Box component="div" className={classes.timeLineItem}>
             <Typography variant="h5" className={classes.subHeading}>
               html & css
             </Typography>
+
             <Typography variant="body1" style={{ color: "tomato" }}>
               Company name where worked
             </Typography>
+
             <Typography variant="subtitle1" style={{ color: "tan" }}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
               voluptatem fuga doloribus quibusdam ratione delectus officia
@@ -159,19 +172,24 @@ const Resume = () => {
             </Typography>
           </Box>
 
+          {/* ======== Third Timeline === */}
           <Typography
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
             2015
           </Typography>
+
+          {/* ---- Text ---- */}
           <Box component="div" className={classes.timeLineItem}>
             <Typography variant="h5" className={classes.subHeading}>
               javascript full stack
             </Typography>
+
             <Typography variant="body1" style={{ color: "tomato" }}>
               Company name where worked
             </Typography>
+
             <Typography variant="subtitle1" style={{ color: "tan" }}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
               voluptatem fuga doloribus quibusdam ratione delectus officia
@@ -179,19 +197,24 @@ const Resume = () => {
             </Typography>
           </Box>
 
+          {/* ======== Fourth Timeline === */}
           <Typography
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
             2017
           </Typography>
+
+          {/* ---- Text ---- */}
           <Box component="div" className={classes.timeLineItem}>
             <Typography variant="h5" className={classes.subHeading}>
               React & Redux
             </Typography>
+
             <Typography variant="body1" style={{ color: "tomato" }}>
               Company name where worked
             </Typography>
+
             <Typography variant="subtitle1" style={{ color: "tan" }}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
               voluptatem fuga doloribus quibusdam ratione delectus officia
@@ -199,19 +222,24 @@ const Resume = () => {
             </Typography>
           </Box>
 
+          {/* ======== Fifth Timeline === */}
           <Typography
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
             2018-2020
           </Typography>
+
+          {/* ---- Text ---- */}
           <Box component="div" className={classes.timeLineItem}>
             <Typography variant="h5" className={classes.subHeading}>
               mern stack
             </Typography>
+
             <Typography variant="body1" style={{ color: "tomato" }}>
               Company name where worked
             </Typography>
+
             <Typography variant="subtitle1" style={{ color: "tan" }}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
               voluptatem fuga doloribus quibusdam ratione delectus officia
