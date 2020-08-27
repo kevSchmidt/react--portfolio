@@ -93,7 +93,7 @@ const Contacts = () => {
           {/* ---- Company Field ---- */}
           <InputField
             fullWidth={true}
-            label="Company name"
+            label="Company"
             variant="outlined"
             inputProps={{ style: { color: "white" } }}
             margin="dense"

@@ -26,14 +26,14 @@ import {
 
 import Footer from "./Footer";
 
-import avatar from "../avatar.png";
+import avatar from "../avatar.jpg";
 
 // ========== CSS STYLES ===
 
 const useStyles = makeStyles((theme) => ({
   menuSliderContainer: {
     width: 250,
-    background: "#511",
+    background: "#222",
     height: "100%",
   },
   avatar: {

@@ -15,10 +15,10 @@ import {
 
 import Navbar from "./Navbar";
 
-import project1 from "../images/html-css-javascript-lg.jpg";
-import project2 from "../images/javascript-fullstack.jpg";
-import project3 from "../images/react-redux.jpg";
-import project4 from "../images/mern-stack.jpg";
+import project1 from "../images/movie-selection.png";
+import project2 from "../images/vinyl-store.png";
+import project3 from "../images/paris.png";
+import project4 from "../images/todolist.png";
 
 // ========== CSS STYLES ===
 
@@ -29,7 +29,9 @@ const useStyles = makeStyles({
   },
   cardContainer: {
     maxWidth: 345,
-    margin: "5rem auto",
+    borderRadius: "5px",
+    boxShadow: "0 3px 4px black",
+    margin: "3rem auto",
   },
 });
 
@@ -50,14 +52,14 @@ const Portfolio = () => {
               <CardMedia
                 component="img"
                 alt="Project 1"
-                height="140"
+                height="180"
                 image={project1}
               />
 
               {/* ---- Title ---- */}
               <CardContent>
                 <Typography gutterBottom variant="h5">
-                  Project 1
+                  Movie Selection
                 </Typography>
 
                 {/* ---- Text ---- */}
@@ -73,10 +75,10 @@ const Portfolio = () => {
             {/* ---- Buttons ---- */}
             <CardActions>
               <Button size="small" color="primary">
-                Share
+                code
               </Button>
               <Button size="small" color="primary">
-                Live Demo
+                preview
               </Button>
             </CardActions>
           </Card>
@@ -90,13 +92,13 @@ const Portfolio = () => {
               <CardMedia
                 component="img"
                 alt="Project 2"
-                height="140"
+                height="180"
                 image={project2}
               />
               <CardContent>
                 {/* ---- Title ---- */}
                 <Typography gutterBottom variant="h5">
-                  Project 2
+                  Vinyl Store
                 </Typography>
 
                 {/* ---- Text ---- */}
@@ -112,10 +114,10 @@ const Portfolio = () => {
             {/* ---- Buttons --- */}
             <CardActions>
               <Button size="small" color="primary">
-                Share
+                code
               </Button>
               <Button size="small" color="primary">
-                Live Demo
+                preview
               </Button>
             </CardActions>
           </Card>
@@ -129,13 +131,13 @@ const Portfolio = () => {
               <CardMedia
                 component="img"
                 alt="Project 3"
-                height="140"
+                height="180"
                 image={project3}
               />
               <CardContent>
                 {/* ---- Title ---- */}
                 <Typography gutterBottom variant="h5">
-                  Project 3
+                  Paris XIX
                 </Typography>
 
                 {/* ---- Text ---- */}
@@ -151,10 +153,10 @@ const Portfolio = () => {
             {/* ---- Buttons --- */}
             <CardActions>
               <Button size="small" color="primary">
-                Share
+                code
               </Button>
               <Button size="small" color="primary">
-                Live Demo
+                preview
               </Button>
             </CardActions>
           </Card>
@@ -168,13 +170,13 @@ const Portfolio = () => {
               <CardMedia
                 component="img"
                 alt="Project 4"
-                height="140"
+                height="180"
                 image={project4}
               />
               <CardContent>
                 {/* ---- Title ---- */}
                 <Typography gutterBottom variant="h5">
-                  Project 4
+                  ToDo List
                 </Typography>
 
                 {/* ---- Text ---- */}
@@ -190,10 +192,10 @@ const Portfolio = () => {
             {/* ---- Buttons --- */}
             <CardActions>
               <Button size="small" color="primary">
-                Share
+                code
               </Button>
               <Button size="small" color="primary">
-                Live Demo
+                preview
               </Button>
             </CardActions>
           </Card>

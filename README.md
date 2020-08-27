@@ -2,7 +2,7 @@
 
 ## Technologies used:
 
-- React.js
+- React.js / React-typed / React-particles
 - Material-UI
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

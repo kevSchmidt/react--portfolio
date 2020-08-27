@@ -21,6 +21,7 @@ const useStyles = makeStyles((theme) => ({
       height: "100%",
       border: "1px solid tan",
       right: "40px",
+      boxShadow: "0 2px 2px black",
       top: 0,
     },
     "&:after": {
@@ -76,6 +77,8 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: "9.375rem",
     margin: "0 3rem 0 auto",
     fontSize: "1.8rem",
+    boxShadow: "0 2px 4px black",
+    borderRadius: "5px",
     background: "tomato",
     color: "white",
     lineHeight: 1,
@@ -96,12 +99,14 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   heading: {
-    color: "tomato",
+    color: "white",
+    textShadow: "0px 1px 2px black",
     padding: "3rem 0",
     textTransform: "uppercase",
   },
   subHeading: {
     color: "white",
+    textShadow: "1px 2px 2px black",
     padding: "0",
     textTransform: "uppercase",
   },
@@ -117,8 +122,8 @@ const Resume = () => {
       <Navbar />
       <Box component="header" className={classes.mainContainer}>
         {/* ---- Title --- */}
-        <Typography variant="h4" align="center" className={classes.heading}>
-          Working Experience
+        <Typography variant="h2" align="center" className={classes.heading}>
+          skills
         </Typography>
 
         <Box component="div" className={classes.timeLine}>
@@ -127,23 +132,24 @@ const Resume = () => {
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2013
+            Aug 2020
           </Typography>
 
           {/* ---- Text ---- */}
           <Box component="div" className={classes.timeLineItem}>
             <Typography variant="h5" className={classes.subHeading}>
-              Web Design
+              MERN stack
             </Typography>
 
             <Typography variant="body1" style={{ color: "tomato" }}>
-              Company name where worked
+              Digital Career Institute
             </Typography>
 
             <Typography variant="subtitle1" style={{ color: "tan" }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              voluptatem fuga doloribus quibusdam ratione delectus officia
-              possimus dolor. Excepturi, dolores!
+              NodeJS | Express | MongoDB | Webpack <br />
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Similique libero velit tempore rem suscipit inventore aut
+              voluptates! Recusandae necessitatibus ut qui sed.
             </Typography>
           </Box>
 
@@ -152,23 +158,24 @@ const Resume = () => {
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2014
+            Jun 2020
           </Typography>
 
           {/* ----Text ---- */}
           <Box component="div" className={classes.timeLineItem}>
             <Typography variant="h5" className={classes.subHeading}>
-              html & css
+              react & redux
             </Typography>
 
             <Typography variant="body1" style={{ color: "tomato" }}>
-              Company name where worked
+              Digital Career Institute
             </Typography>
 
             <Typography variant="subtitle1" style={{ color: "tan" }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              voluptatem fuga doloribus quibusdam ratione delectus officia
-              possimus dolor. Excepturi, dolores!
+              React Lifecycle | React Router | React Hooks | Redux <br />
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Repudiandae at natus et, quas adipisci fugiat nesciunt laudantium
+              similique aliquid, placeat excepturi unde odit.
             </Typography>
           </Box>
 
@@ -177,23 +184,24 @@ const Resume = () => {
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2015
+            Mai 2020
           </Typography>
 
           {/* ---- Text ---- */}
           <Box component="div" className={classes.timeLineItem}>
             <Typography variant="h5" className={classes.subHeading}>
-              javascript full stack
+              DOM
             </Typography>
 
             <Typography variant="body1" style={{ color: "tomato" }}>
-              Company name where worked
+              Digital Career Institute
             </Typography>
 
             <Typography variant="subtitle1" style={{ color: "tan" }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              voluptatem fuga doloribus quibusdam ratione delectus officia
-              possimus dolor. Excepturi, dolores!
+              Node | Document Interface <br />
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
+              iste possimus perferendis, beatae ut quaerat, ipsa ullam
+              dignissimos consequatur.
             </Typography>
           </Box>
 
@@ -202,23 +210,24 @@ const Resume = () => {
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2017
+            Mar 2020
           </Typography>
 
           {/* ---- Text ---- */}
           <Box component="div" className={classes.timeLineItem}>
             <Typography variant="h5" className={classes.subHeading}>
-              React & Redux
+              html & css
             </Typography>
 
             <Typography variant="body1" style={{ color: "tomato" }}>
-              Company name where worked
+              Digital Career Institute
             </Typography>
 
             <Typography variant="subtitle1" style={{ color: "tan" }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              voluptatem fuga doloribus quibusdam ratione delectus officia
-              possimus dolor. Excepturi, dolores!
+              HTML-5 | CSS-3 | SASS | Bootstrap <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+              eligendi inventore consequuntur, vel expedita nesciunt obcaecati
+              dicta vitae!
             </Typography>
           </Box>
 
@@ -227,23 +236,50 @@ const Resume = () => {
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2018-2020
+            Jan 2020
           </Typography>
 
           {/* ---- Text ---- */}
           <Box component="div" className={classes.timeLineItem}>
             <Typography variant="h5" className={classes.subHeading}>
-              mern stack
+              Javascript
             </Typography>
 
             <Typography variant="body1" style={{ color: "tomato" }}>
-              Company name where worked
+              Digital Career Institute
             </Typography>
 
             <Typography variant="subtitle1" style={{ color: "tan" }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              voluptatem fuga doloribus quibusdam ratione delectus officia
-              possimus dolor. Excepturi, dolores!
+              Javascript Basics | Objects-Functions | ES6 <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus ipsa accusantium, maiores harum unde cupiditate
+              consectetur esse.
+            </Typography>
+          </Box>
+
+          {/* ======== Sixth Timeline === */}
+          <Typography
+            variant="h2"
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+            Dec 2019
+          </Typography>
+
+          {/* ---- Text ---- */}
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography variant="h5" className={classes.subHeading}>
+              GitHub
+            </Typography>
+
+            <Typography variant="body1" style={{ color: "tomato" }}>
+              Digital Career Institute
+            </Typography>
+
+            <Typography variant="subtitle1" style={{ color: "tan" }}>
+              Terminal | Git <br />
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
+              possimus voluptate nisi nesciunt obcaecati iusto! Similique,
+              nostrum.
             </Typography>
           </Box>
         </Box>

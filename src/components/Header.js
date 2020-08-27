@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Avatar, Grid, Box } from "@material-ui/core";
 import Typed from "react-typed";
 
-import avatar from "../avatar.png";
+import avatar from "../avatar.jpg";
 
 // ========== CSS STYLES ===
 
@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
     top: "50%",
     left: "50%",
     transform: "translate(-50%, -50%)",
-    width: "100vw",
+    width: "100%",
     textAlign: "center",
     zIndex: 1,
   },
