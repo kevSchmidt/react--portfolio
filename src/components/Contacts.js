@@ -17,8 +17,8 @@ const useStyles = makeStyles((theme) => ({
   },
   button: {
     marginTop: "1rem",
-    color: "tomato",
-    borderColor: "tomato",
+    color: "tan",
+    borderColor: "tan",
   },
 }));
 
