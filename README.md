@@ -2,8 +2,10 @@
 
 ## Technologies used:
 
-- React.js / React-typed / React-particles
-- Material-UI
+- React: https://reactjs.org/
+- React-typed: https://www.npmjs.com/package/react-typed
+- React-particles: https://www.npmjs.com/package/react-particles-js
+- Material-UI: https://material-ui.com/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
