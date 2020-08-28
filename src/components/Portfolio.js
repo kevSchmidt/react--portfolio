@@ -64,10 +64,9 @@ const Portfolio = () => {
 
                 {/* ---- Text ---- */}
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis, ducimus consectetur veritatis maxime aut deleniti
-                  expedita molestiae doloribus architecto autem quasi facere
-                  ipsam pariatur, nostrum illo cumque sit repellendus voluptas.
+                  This project use the DOM to generate a list of movies from a
+                  local database. The user can discover more information about a
+                  movie when selected.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -103,10 +102,9 @@ const Portfolio = () => {
 
                 {/* ---- Text ---- */}
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis, ducimus consectetur veritatis maxime aut deleniti
-                  expedita molestiae doloribus architecto autem quasi facere
-                  ipsam pariatur, nostrum illo cumque sit repellendus voluptas.
+                  Online store made only for learning purposes using React. I am
+                  using my own vinyls collection to exercise on a large
+                  e-commerce website.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -142,10 +140,8 @@ const Portfolio = () => {
 
                 {/* ---- Text ---- */}
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis, ducimus consectetur veritatis maxime aut deleniti
-                  expedita molestiae doloribus architecto autem quasi facere
-                  ipsam pariatur, nostrum illo cumque sit repellendus voluptas.
+                  Touristic website made only for learning purposes using
+                  Bootstrap. Discover the 19th district of Paris.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -181,10 +177,9 @@ const Portfolio = () => {
 
                 {/* ---- Text ---- */}
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis, ducimus consectetur veritatis maxime aut deleniti
-                  expedita molestiae doloribus architecto autem quasi facere
-                  ipsam pariatur, nostrum illo cumque sit repellendus voluptas.
+                  This project was made in school to practice React. The user
+                  can add new items to the list, check them as done or delete
+                  them.
                 </Typography>
               </CardContent>
             </CardActionArea>
