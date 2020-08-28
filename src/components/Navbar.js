@@ -16,13 +16,7 @@ import {
   Typography,
   Box,
 } from "@material-ui/core";
-import {
-  ArrowBack,
-  AssignmentInd,
-  Home,
-  Apps,
-  ContactMail,
-} from "@material-ui/icons";
+import { Menu, AccountBox, Home, Apps, Drafts } from "@material-ui/icons";
 
 import Footer from "./Footer";
 
@@ -32,7 +26,7 @@ import avatar from "../avatar.jpg";
 
 const useStyles = makeStyles((theme) => ({
   menuSliderContainer: {
-    width: 250,
+    width: 280,
     background: "#222",
     height: "100%",
   },
@@ -56,7 +50,7 @@ const menuItems = [
     listPath: "/",
   },
   {
-    listIcon: <AssignmentInd />,
+    listIcon: <AccountBox />,
     listText: "Resume",
     listPath: "/resume",
   },
@@ -66,7 +60,7 @@ const menuItems = [
     listPath: "/portfolio",
   },
   {
-    listIcon: <ContactMail />,
+    listIcon: <Drafts />,
     listText: "Contacts",
     listPath: "/contacts",
   },
@@ -119,7 +113,7 @@ const Navbar = () => {
           <Toolbar>
             {/* ---- Icon ---- */}
             <IconButton onClick={toggleSlider("right", true)}>
-              <ArrowBack style={{ color: "tomato" }} />
+              <Menu style={{ color: "white" }} />
             </IconButton>
 
             {/* ---- Title ---- */}
