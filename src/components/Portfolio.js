@@ -24,7 +24,7 @@ import project4 from "../images/todolist.png";
 
 const useStyles = makeStyles({
   mainContainer: {
-    background: "#233",
+    background: "#264653",
     height: "100%",
   },
   cardContainer: {

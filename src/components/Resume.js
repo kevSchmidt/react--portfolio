@@ -9,7 +9,7 @@ import Navbar from "./Navbar";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    background: "#233",
+    background: "#264653",
   },
   timeLine: {
     position: "relative",
@@ -145,7 +145,7 @@ const Resume = () => {
               Digital Career Institute
             </Typography>
 
-            <Typography variant="subtitle1" style={{ color: "tan" }}>
+            <Typography variant="subtitle1" style={{ color: "white" }}>
               NodeJS | Express | MongoDB | Webpack <br />
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Similique libero velit tempore rem suscipit inventore aut
@@ -171,7 +171,7 @@ const Resume = () => {
               Digital Career Institute
             </Typography>
 
-            <Typography variant="subtitle1" style={{ color: "tan" }}>
+            <Typography variant="subtitle1" style={{ color: "white" }}>
               React Lifecycle | React Router | React Hooks | Redux <br />
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Repudiandae at natus et, quas adipisci fugiat nesciunt laudantium
@@ -197,7 +197,7 @@ const Resume = () => {
               Digital Career Institute
             </Typography>
 
-            <Typography variant="subtitle1" style={{ color: "tan" }}>
+            <Typography variant="subtitle1" style={{ color: "white" }}>
               Node | Document Interface <br />
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
               iste possimus perferendis, beatae ut quaerat, ipsa ullam
@@ -223,7 +223,7 @@ const Resume = () => {
               Digital Career Institute
             </Typography>
 
-            <Typography variant="subtitle1" style={{ color: "tan" }}>
+            <Typography variant="subtitle1" style={{ color: "white" }}>
               HTML-5 | CSS-3 | SASS | Bootstrap <br />
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
               eligendi inventore consequuntur, vel expedita nesciunt obcaecati
@@ -249,7 +249,7 @@ const Resume = () => {
               Digital Career Institute
             </Typography>
 
-            <Typography variant="subtitle1" style={{ color: "tan" }}>
+            <Typography variant="subtitle1" style={{ color: "white" }}>
               Javascript Basics | Objects-Functions | ES6 <br />
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Necessitatibus ipsa accusantium, maiores harum unde cupiditate
@@ -275,7 +275,7 @@ const Resume = () => {
               Digital Career Institute
             </Typography>
 
-            <Typography variant="subtitle1" style={{ color: "tan" }}>
+            <Typography variant="subtitle1" style={{ color: "white" }}>
               Terminal | Git <br />
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
               possimus voluptate nisi nesciunt obcaecati iusto! Similique,
