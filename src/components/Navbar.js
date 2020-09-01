@@ -113,11 +113,11 @@ const Navbar = () => {
           <Toolbar>
             {/* ---- Icon ---- */}
             <IconButton onClick={toggleSlider("right", true)}>
-              <Menu style={{ color: "#e76f51" }} />
+              <Menu style={{ color: "tomato" }} />
             </IconButton>
 
             {/* ---- Title ---- */}
-            <Typography variant="h5" style={{ color: "#f1f1f1" }}>
+            <Typography variant="h5" style={{ color: "white" }}>
               Portfolio
             </Typography>
 

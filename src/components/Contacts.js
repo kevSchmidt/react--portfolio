@@ -17,8 +17,8 @@ const useStyles = makeStyles((theme) => ({
   },
   button: {
     marginTop: "1rem",
-    color: "#e76f51",
-    borderColor: "#e76f51",
+    color: "tomato",
+    borderColor: "tomato",
   },
 }));
 
@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
 const InputField = withStyles({
   root: {
     "& label.Mui-focused": {
-      color: "#e76f51",
+      color: "tomato",
     },
     "& label": {
       color: "#f1f1f1",
@@ -60,7 +60,7 @@ const Contacts = () => {
           <Typography
             variant="h5"
             style={{
-              color: "#e76f51",
+              color: "tomato",
               textAlign: "center",
               textTransform: "uppercase",
             }}

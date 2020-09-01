@@ -15,11 +15,11 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(1),
   },
   title: {
-    color: "#e76f51",
+    color: "tomato",
     textShadow: "1px 2px 2px black",
   },
   subtitle: {
-    color: "#f1f1f1",
+    color: "white",
     marginBottom: "3rem",
   },
   typedContainer: {
