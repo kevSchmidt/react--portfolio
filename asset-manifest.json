@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc6124e2.chunk.css",
-    "main.js": "/static/js/main.55403677.chunk.js",
-    "main.js.map": "/static/js/main.55403677.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.28b60268.js",
-    "runtime-main.js.map": "/static/js/runtime-main.28b60268.js.map",
-    "static/js/2.6b169522.chunk.js": "/static/js/2.6b169522.chunk.js",
-    "static/js/2.6b169522.chunk.js.map": "/static/js/2.6b169522.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.67663f6e5ed13796c9ab56692bf40902.js": "/precache-manifest.67663f6e5ed13796c9ab56692bf40902.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.dc6124e2.chunk.css.map": "/static/css/main.dc6124e2.chunk.css.map",
-    "static/js/2.6b169522.chunk.js.LICENSE.txt": "/static/js/2.6b169522.chunk.js.LICENSE.txt",
-    "static/media/avatar.jpg": "/static/media/avatar.aea88506.jpg",
-    "static/media/movie-selection.png": "/static/media/movie-selection.ad709587.png",
-    "static/media/paris.png": "/static/media/paris.e7effbd8.png",
-    "static/media/todolist.png": "/static/media/todolist.6132e1e6.png",
-    "static/media/vinyl-store.png": "/static/media/vinyl-store.26e868d7.png"
+    "main.css": "/react--portfolio/static/css/main.dc6124e2.chunk.css",
+    "main.js": "/react--portfolio/static/js/main.6d100341.chunk.js",
+    "main.js.map": "/react--portfolio/static/js/main.6d100341.chunk.js.map",
+    "runtime-main.js": "/react--portfolio/static/js/runtime-main.e2460c90.js",
+    "runtime-main.js.map": "/react--portfolio/static/js/runtime-main.e2460c90.js.map",
+    "static/js/2.6b169522.chunk.js": "/react--portfolio/static/js/2.6b169522.chunk.js",
+    "static/js/2.6b169522.chunk.js.map": "/react--portfolio/static/js/2.6b169522.chunk.js.map",
+    "index.html": "/react--portfolio/index.html",
+    "precache-manifest.3e428c6820517cacd1adb3a30e4b5d94.js": "/react--portfolio/precache-manifest.3e428c6820517cacd1adb3a30e4b5d94.js",
+    "service-worker.js": "/react--portfolio/service-worker.js",
+    "static/css/main.dc6124e2.chunk.css.map": "/react--portfolio/static/css/main.dc6124e2.chunk.css.map",
+    "static/js/2.6b169522.chunk.js.LICENSE.txt": "/react--portfolio/static/js/2.6b169522.chunk.js.LICENSE.txt",
+    "static/media/avatar.jpg": "/react--portfolio/static/media/avatar.aea88506.jpg",
+    "static/media/movie-selection.png": "/react--portfolio/static/media/movie-selection.ad709587.png",
+    "static/media/paris.png": "/react--portfolio/static/media/paris.e7effbd8.png",
+    "static/media/todolist.png": "/react--portfolio/static/media/todolist.6132e1e6.png",
+    "static/media/vinyl-store.png": "/react--portfolio/static/media/vinyl-store.26e868d7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.28b60268.js",
+    "static/js/runtime-main.e2460c90.js",
     "static/js/2.6b169522.chunk.js",
     "static/css/main.dc6124e2.chunk.css",
-    "static/js/main.55403677.chunk.js"
+    "static/js/main.6d100341.chunk.js"
   ]
 }
