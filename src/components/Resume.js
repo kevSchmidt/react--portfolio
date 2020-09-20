@@ -9,7 +9,7 @@ import Navbar from "./Navbar";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    background: "#264653",
+    background: "#393e46",
   },
   timeLine: {
     position: "relative",
@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
       content: "''",
       position: "absolute",
       height: "100%",
-      border: "1px solid tan",
+      border: "1px solid #eeeeee",
       right: "40px",
       boxShadow: "0 2px 2px black",
       top: 0,
@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
   },
   timeLineItem: {
     padding: "1rem",
-    borderBottom: "2px solid tan",
+    borderBottom: "2px solid #eeeeee",
     position: "relative",
     margin: "1rem 3rem 1rem 1rem",
     clear: "both",
@@ -53,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
       right: "-0.625rem",
       top: "calc(50% - 5px)",
       borderStyle: "solid",
-      borderColor: "tomato tomato transparent transparent",
+      borderColor: "#00adb5 #00adb5 transparent transparent",
       borderWidth: "0.625rem",
       transform: "rotate(45deg)",
     },
@@ -63,12 +63,12 @@ const useStyles = makeStyles((theme) => ({
       "&:nth-of-type(2n)": {
         float: "right",
         margin: "1rem",
-        borderColor: "tan",
+        borderColor: "#eeeeee",
       },
       "&:nth-of-type(2n):before": {
         right: "auto",
         left: "-0.625rem",
-        borderColor: "transparent transparent tomato tomato",
+        borderColor: "transparent transparent #00adb5 #00adb5",
       },
     },
   },
@@ -79,8 +79,8 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "1.8rem",
     boxShadow: "0 2px 4px black",
     borderRadius: "5px",
-    background: "tomato",
-    color: "white",
+    background: "#00adb5",
+    color: "#eeeeee",
     lineHeight: 1,
     padding: "0.5rem 0 1rem",
     "&:before": {
@@ -99,13 +99,13 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   heading: {
-    color: "white",
+    color: "#eeeeee",
     textShadow: "0px 1px 2px black",
     padding: "3rem 0",
     textTransform: "uppercase",
   },
   subHeading: {
-    color: "white",
+    color: "#eeeeee",
     textShadow: "1px 2px 2px black",
     padding: "0",
     textTransform: "uppercase",
@@ -142,11 +142,11 @@ const Resume = () => {
               MERN stack
             </Typography>
 
-            <Typography variant="body1" style={{ color: "tomato" }}>
+            <Typography variant="body1" style={{ color: "#00adb5" }}>
               Digital Career Institute
             </Typography>
 
-            <Typography variant="subtitle1" style={{ color: "white" }}>
+            <Typography variant="subtitle1" style={{ color: "#eeeeee" }}>
               MongoDB | Express | React | Node <br />
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Similique libero velit tempore rem suscipit inventore aut
@@ -168,11 +168,11 @@ const Resume = () => {
               react
             </Typography>
 
-            <Typography variant="body1" style={{ color: "tomato" }}>
+            <Typography variant="body1" style={{ color: "#00adb5" }}>
               Digital Career Institute
             </Typography>
 
-            <Typography variant="subtitle1" style={{ color: "white" }}>
+            <Typography variant="subtitle1" style={{ color: "#eeeeee" }}>
               React Router | React Lifecycle | React Hooks | Redux <br />
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Repudiandae at natus et, quas adipisci fugiat nesciunt laudantium
@@ -194,11 +194,11 @@ const Resume = () => {
               DOM
             </Typography>
 
-            <Typography variant="body1" style={{ color: "tomato" }}>
+            <Typography variant="body1" style={{ color: "#00adb5" }}>
               Digital Career Institute
             </Typography>
 
-            <Typography variant="subtitle1" style={{ color: "white" }}>
+            <Typography variant="subtitle1" style={{ color: "#eeeeee" }}>
               Document Object Model | Package JSON | API <br />
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
               iste possimus perferendis, beatae ut quaerat, ipsa ullam
@@ -220,11 +220,11 @@ const Resume = () => {
               html & css
             </Typography>
 
-            <Typography variant="body1" style={{ color: "tomato" }}>
+            <Typography variant="body1" style={{ color: "#00adb5" }}>
               Digital Career Institute
             </Typography>
 
-            <Typography variant="subtitle1" style={{ color: "white" }}>
+            <Typography variant="subtitle1" style={{ color: "#eeeeee" }}>
               HTML | CSS | SASS | Bootstrap <br />
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
               eligendi inventore consequuntur, vel expedita nesciunt obcaecati
@@ -246,11 +246,11 @@ const Resume = () => {
               Javascript
             </Typography>
 
-            <Typography variant="body1" style={{ color: "tomato" }}>
+            <Typography variant="body1" style={{ color: "#00adb5" }}>
               Digital Career Institute
             </Typography>
 
-            <Typography variant="subtitle1" style={{ color: "white" }}>
+            <Typography variant="subtitle1" style={{ color: "#eeeeee" }}>
               Javascript Basics | Objects-Functions | ES6 <br />
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Necessitatibus ipsa accusantium, maiores harum unde cupiditate
@@ -272,11 +272,11 @@ const Resume = () => {
               GitHub
             </Typography>
 
-            <Typography variant="body1" style={{ color: "tomato" }}>
+            <Typography variant="body1" style={{ color: "#00adb5" }}>
               Digital Career Institute
             </Typography>
 
-            <Typography variant="subtitle1" style={{ color: "white" }}>
+            <Typography variant="subtitle1" style={{ color: "#eeeeee" }}>
               Terminal | Git <br />
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
               possimus voluptate nisi nesciunt obcaecati iusto! Similique,

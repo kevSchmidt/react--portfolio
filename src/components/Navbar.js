@@ -27,7 +27,7 @@ import avatar from "../avatar.jpg";
 const useStyles = makeStyles((theme) => ({
   menuSliderContainer: {
     width: 280,
-    background: "#222",
+    background: "#222831",
     height: "100%",
   },
   avatar: {
@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
     height: theme.spacing(13),
   },
   listItem: {
-    color: "tan",
+    color: "#eeeeee",
   },
 }));
 
@@ -109,15 +109,15 @@ const Navbar = () => {
   return (
     <React.Fragment>
       <Box component="nav">
-        <AppBar position="static" style={{ background: "#222" }}>
+        <AppBar position="static" style={{ background: "#222831" }}>
           <Toolbar>
             {/* ---- Icon ---- */}
             <IconButton onClick={toggleSlider("right", true)}>
-              <Menu style={{ color: "tomato" }} />
+              <Menu style={{ color: "#eeeeee" }} />
             </IconButton>
 
             {/* ---- Title ---- */}
-            <Typography variant="h5" style={{ color: "white" }}>
+            <Typography variant="h5" style={{ color: "#eeeeee" }}>
               Portfolio
             </Typography>
 

@@ -10,7 +10,7 @@ import Header from "./Header";
 
 const useStyles = makeStyles({
   particlesCanva: {
-    background: "#264653",
+    background: "#393e46",
     position: "absolute",
     opacity: "0.3",
   },

@@ -24,7 +24,7 @@ import project4 from "../images/todolist.png";
 
 const useStyles = makeStyles({
   mainContainer: {
-    background: "#264653",
+    background: "#393e46",
     height: "100%",
   },
   cardContainer: {
@@ -74,7 +74,7 @@ const Portfolio = () => {
             {/* ---- Buttons ---- */}
             <CardActions>
               <Button
-                size="small"
+                size="medium"
                 color="primary"
                 href="https://github.com/kevSchmidt/movie-selection"
                 target="blank"
@@ -83,7 +83,7 @@ const Portfolio = () => {
               </Button>
 
               <Button
-                size="small"
+                size="medium"
                 color="primary"
                 href="https://kevschmidt.github.io/movie-selection"
                 target="blank"
@@ -123,7 +123,7 @@ const Portfolio = () => {
             {/* ---- Buttons --- */}
             <CardActions>
               <Button
-                size="small"
+                size="medium"
                 color="primary"
                 href="https://github.com/kevSchmidt/react--vinyl-store"
                 target="blank"
@@ -132,7 +132,7 @@ const Portfolio = () => {
               </Button>
 
               <Button
-                size="small"
+                size="medium"
                 color="primary"
                 href="https://kevschmidt.github.io/react--vinyl-store"
                 target="blank"
@@ -171,7 +171,7 @@ const Portfolio = () => {
             {/* ---- Buttons --- */}
             <CardActions>
               <Button
-                size="small"
+                size="medium"
                 color="primary"
                 href="https://github.com/kevSchmidt/paris-19"
                 target="blank"
@@ -180,7 +180,7 @@ const Portfolio = () => {
               </Button>
 
               <Button
-                size="small"
+                size="medium"
                 color="primary"
                 href=" https://kevschmidt.github.io/paris-19"
                 target="blank"
@@ -220,7 +220,7 @@ const Portfolio = () => {
             {/* ---- Buttons --- */}
             <CardActions>
               <Button
-                size="small"
+                size="medium"
                 color="primary"
                 href="https://github.com/kevSchmidt/react--todolist"
                 target="blank"
@@ -229,7 +229,7 @@ const Portfolio = () => {
               </Button>
 
               <Button
-                size="small"
+                size="medium"
                 color="primary"
                 href="https://kevschmidt.github.io/react--todolist"
                 target="blank"
