@@ -36,6 +36,9 @@ const Footer = () => {
       <BottomNavigationAction
         className={classes.root}
         style={{ padding: 0 }}
+        href="https://www.linkedin.com/in/kev-schmidt"
+        target="blank"
+        rel="noopener"
         icon={<LinkedIn />}
       />
 
@@ -43,6 +46,9 @@ const Footer = () => {
       <BottomNavigationAction
         className={classes.root}
         style={{ padding: 0 }}
+        href="https://github.com/kevSchmidt"
+        target="blank"
+        rel="noopener"
         icon={<GitHub />}
       />
 
@@ -50,6 +56,9 @@ const Footer = () => {
       <BottomNavigationAction
         className={classes.root}
         style={{ padding: 0 }}
+        href="https://www.instagram.com/tete.dans.la.lune"
+        target="blank"
+        rel="noopener"
         icon={<Instagram />}
       />
     </BottomNavigation>

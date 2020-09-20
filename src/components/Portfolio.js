@@ -73,10 +73,21 @@ const Portfolio = () => {
 
             {/* ---- Buttons ---- */}
             <CardActions>
-              <Button size="small" color="primary">
+              <Button
+                size="small"
+                color="primary"
+                href="https://github.com/kevSchmidt/movie-selection"
+                target="blank"
+              >
                 code
               </Button>
-              <Button size="small" color="primary">
+
+              <Button
+                size="small"
+                color="primary"
+                href="https://kevschmidt.github.io/movie-selection"
+                target="blank"
+              >
                 preview
               </Button>
             </CardActions>
@@ -111,10 +122,21 @@ const Portfolio = () => {
 
             {/* ---- Buttons --- */}
             <CardActions>
-              <Button size="small" color="primary">
+              <Button
+                size="small"
+                color="primary"
+                href="https://github.com/kevSchmidt/react--vinyl-store"
+                target="blank"
+              >
                 code
               </Button>
-              <Button size="small" color="primary">
+
+              <Button
+                size="small"
+                color="primary"
+                href="https://kevschmidt.github.io/react--vinyl-store"
+                target="blank"
+              >
                 preview
               </Button>
             </CardActions>
@@ -148,10 +170,21 @@ const Portfolio = () => {
 
             {/* ---- Buttons --- */}
             <CardActions>
-              <Button size="small" color="primary">
+              <Button
+                size="small"
+                color="primary"
+                href="https://github.com/kevSchmidt/paris-19"
+                target="blank"
+              >
                 code
               </Button>
-              <Button size="small" color="primary">
+
+              <Button
+                size="small"
+                color="primary"
+                href=" https://kevschmidt.github.io/paris-19"
+                target="blank"
+              >
                 preview
               </Button>
             </CardActions>
@@ -186,10 +219,21 @@ const Portfolio = () => {
 
             {/* ---- Buttons --- */}
             <CardActions>
-              <Button size="small" color="primary">
+              <Button
+                size="small"
+                color="primary"
+                href="https://github.com/kevSchmidt/react--todolist"
+                target="blank"
+              >
                 code
               </Button>
-              <Button size="small" color="primary">
+
+              <Button
+                size="small"
+                color="primary"
+                href="https://kevschmidt.github.io/react--todolist"
+                target="blank"
+              >
                 preview
               </Button>
             </CardActions>
