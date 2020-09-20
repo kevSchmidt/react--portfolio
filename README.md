@@ -1,11 +1,47 @@
 # Portfolio
 
+- Link of the project: 
+- Clone the repository: ``` git clone git@github.com:kevSchmidt/react--portfolio.git ```
+
 ## Technologies used:
+<h1>
+<img src="https://imgur.com/T1TApg1.png" alt="React" width="20%">
+<img src="https://imgur.com/fZuu2v0.png" alt="React" width="10%">
+</h1>
 
 - React: https://reactjs.org/
 - React-typed: https://www.npmjs.com/package/react-typed
 - React-particles: https://www.npmjs.com/package/react-particles-js
 - Material-UI: https://material-ui.com/
+
+
+### Structure:
+
+```
+Project
+│   README.md
+│   package.json
+|   package-lock.json
+|
+└─── public
+│      └─── index.html
+|
+|
+└─── src
+      └─── index.js
+      └─── App.js
+      └─── App.css
+      └─── images
+      └─── components
+              └─── Contacts.js
+              └─── Footer.js
+              └─── Header.js
+              └─── Home.js
+              └─── NavBar.js
+              └─── Portfolio.js
+              └─── Resume.js           
+``` 
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
