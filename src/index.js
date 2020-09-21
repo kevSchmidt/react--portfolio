@@ -7,7 +7,7 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
-  <Router basename="/react--portfolio">
+  <Router basename={process.env.PUBLIC_URL}>
     <App />
   </Router>,
   document.getElementById("root")
