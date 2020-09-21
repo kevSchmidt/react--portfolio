@@ -1,9 +1,9 @@
 # Portfolio
 
-- Link of the project:
+- Link of the project: https://kevschmidt.github.io/react--portfolio/
 - Clone the repository: `git clone git@github.com:kevSchmidt/react--portfolio.git`
 
-### Technologies used:
+### Tools:
 
 <h1>
 <img src="https://imgur.com/T1TApg1.png" alt="React" width="20%">
