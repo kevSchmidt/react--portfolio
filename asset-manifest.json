@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/react--portfolio/static/css/main.dc6124e2.chunk.css",
-    "main.js": "/react--portfolio/static/js/main.80886968.chunk.js",
-    "main.js.map": "/react--portfolio/static/js/main.80886968.chunk.js.map",
-    "runtime-main.js": "/react--portfolio/static/js/runtime-main.e2460c90.js",
-    "runtime-main.js.map": "/react--portfolio/static/js/runtime-main.e2460c90.js.map",
-    "static/js/2.ba4becdf.chunk.js": "/react--portfolio/static/js/2.ba4becdf.chunk.js",
-    "static/js/2.ba4becdf.chunk.js.map": "/react--portfolio/static/js/2.ba4becdf.chunk.js.map",
-    "index.html": "/react--portfolio/index.html",
-    "precache-manifest.401ecdff4436a310c2067942975e518b.js": "/react--portfolio/precache-manifest.401ecdff4436a310c2067942975e518b.js",
-    "service-worker.js": "/react--portfolio/service-worker.js",
-    "static/css/main.dc6124e2.chunk.css.map": "/react--portfolio/static/css/main.dc6124e2.chunk.css.map",
-    "static/js/2.ba4becdf.chunk.js.LICENSE.txt": "/react--portfolio/static/js/2.ba4becdf.chunk.js.LICENSE.txt",
-    "static/media/avatar.jpg": "/react--portfolio/static/media/avatar.aea88506.jpg",
-    "static/media/movie-selection.png": "/react--portfolio/static/media/movie-selection.ad709587.png",
-    "static/media/paris.png": "/react--portfolio/static/media/paris.e7effbd8.png",
-    "static/media/todolist.png": "/react--portfolio/static/media/todolist.6132e1e6.png",
-    "static/media/vinyl-store.png": "/react--portfolio/static/media/vinyl-store.26e868d7.png"
+    "main.css": "./react--portfolio/static/css/main.dc6124e2.chunk.css",
+    "main.js": "./react--portfolio/static/js/main.4ef42c59.chunk.js",
+    "main.js.map": "./react--portfolio/static/js/main.4ef42c59.chunk.js.map",
+    "runtime-main.js": "./react--portfolio/static/js/runtime-main.167602ed.js",
+    "runtime-main.js.map": "./react--portfolio/static/js/runtime-main.167602ed.js.map",
+    "static/js/2.ba4becdf.chunk.js": "./react--portfolio/static/js/2.ba4becdf.chunk.js",
+    "static/js/2.ba4becdf.chunk.js.map": "./react--portfolio/static/js/2.ba4becdf.chunk.js.map",
+    "index.html": "./react--portfolio/index.html",
+    "precache-manifest.3258748b45b4fff449f7736df44a0a58.js": "./react--portfolio/precache-manifest.3258748b45b4fff449f7736df44a0a58.js",
+    "service-worker.js": "./react--portfolio/service-worker.js",
+    "static/css/main.dc6124e2.chunk.css.map": "./react--portfolio/static/css/main.dc6124e2.chunk.css.map",
+    "static/js/2.ba4becdf.chunk.js.LICENSE.txt": "./react--portfolio/static/js/2.ba4becdf.chunk.js.LICENSE.txt",
+    "static/media/avatar.jpg": "./react--portfolio/static/media/avatar.aea88506.jpg",
+    "static/media/movie-selection.png": "./react--portfolio/static/media/movie-selection.ad709587.png",
+    "static/media/paris.png": "./react--portfolio/static/media/paris.e7effbd8.png",
+    "static/media/todolist.png": "./react--portfolio/static/media/todolist.6132e1e6.png",
+    "static/media/vinyl-store.png": "./react--portfolio/static/media/vinyl-store.26e868d7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e2460c90.js",
+    "static/js/runtime-main.167602ed.js",
     "static/js/2.ba4becdf.chunk.js",
     "static/css/main.dc6124e2.chunk.css",
-    "static/js/main.80886968.chunk.js"
+    "static/js/main.4ef42c59.chunk.js"
   ]
 }
