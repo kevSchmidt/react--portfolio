@@ -1,6 +1,6 @@
 # Portfolio
 
-- Link of the project: 
+- Link of the project: https://kevschmidt.github.io/react--portfolio/
 - Clone the repository: ``` git clone git@github.com:kevSchmidt/react--portfolio.git ```
 
 ## Technologies used:
