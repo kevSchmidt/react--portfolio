@@ -55,7 +55,7 @@ const Header = () => {
       {/* ---- Subtitle ---- */}
       <Typography className={classes.subtitle} variant="h5">
         <Typed
-          strings={["Web Developer", "Web Designer", "React / Material-ui"]}
+          strings={["Web Developer", "Web Designer"]}
           typeSpeed={60}
           backSpeed={50}
           loop
