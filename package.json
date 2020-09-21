@@ -4,7 +4,7 @@
   "description": "personal portfolio",
   "private": true,
   "main": "index.js",
-  "homepage": "https://kevschmidt.github.io/react--portfolio/",
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
