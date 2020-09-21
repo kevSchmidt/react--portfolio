@@ -4,7 +4,7 @@ import { Route } from "react-router-dom";
 // -- CssBaseline remove margin and padding --
 import CssBaseline from "@material-ui/core/CssBaseline";
 
-// import "./App.css";
+import "./App.css";
 
 import Home from "./components/Home";
 import Resume from "./components/Resume";
