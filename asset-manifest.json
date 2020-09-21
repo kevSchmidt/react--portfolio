@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "./react--portfolio/static/css/main.53d97c50.chunk.css",
-    "main.js": "./react--portfolio/static/js/main.4ef42c59.chunk.js",
-    "main.js.map": "./react--portfolio/static/js/main.4ef42c59.chunk.js.map",
-    "runtime-main.js": "./react--portfolio/static/js/runtime-main.167602ed.js",
-    "runtime-main.js.map": "./react--portfolio/static/js/runtime-main.167602ed.js.map",
-    "static/js/2.ba4becdf.chunk.js": "./react--portfolio/static/js/2.ba4becdf.chunk.js",
-    "static/js/2.ba4becdf.chunk.js.map": "./react--portfolio/static/js/2.ba4becdf.chunk.js.map",
-    "index.html": "./react--portfolio/index.html",
-    "precache-manifest.93dc7961432686810b51155ab1f5f215.js": "./react--portfolio/precache-manifest.93dc7961432686810b51155ab1f5f215.js",
-    "service-worker.js": "./react--portfolio/service-worker.js",
-    "static/css/main.53d97c50.chunk.css.map": "./react--portfolio/static/css/main.53d97c50.chunk.css.map",
-    "static/js/2.ba4becdf.chunk.js.LICENSE.txt": "./react--portfolio/static/js/2.ba4becdf.chunk.js.LICENSE.txt",
-    "static/media/avatar.jpg": "./react--portfolio/static/media/avatar.aea88506.jpg",
-    "static/media/movie-selection.png": "./react--portfolio/static/media/movie-selection.ad709587.png",
-    "static/media/paris.png": "./react--portfolio/static/media/paris.e7effbd8.png",
-    "static/media/todolist.png": "./react--portfolio/static/media/todolist.6132e1e6.png",
-    "static/media/vinyl-store.png": "./react--portfolio/static/media/vinyl-store.26e868d7.png"
+    "main.css": "./static/css/main.53d97c50.chunk.css",
+    "main.js": "./static/js/main.35338c43.chunk.js",
+    "main.js.map": "./static/js/main.35338c43.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.9e4ed27c.js",
+    "runtime-main.js.map": "./static/js/runtime-main.9e4ed27c.js.map",
+    "static/js/2.ba4becdf.chunk.js": "./static/js/2.ba4becdf.chunk.js",
+    "static/js/2.ba4becdf.chunk.js.map": "./static/js/2.ba4becdf.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.e7c15f08e81b8154a658c785c5ebfe9e.js": "./precache-manifest.e7c15f08e81b8154a658c785c5ebfe9e.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.53d97c50.chunk.css.map": "./static/css/main.53d97c50.chunk.css.map",
+    "static/js/2.ba4becdf.chunk.js.LICENSE.txt": "./static/js/2.ba4becdf.chunk.js.LICENSE.txt",
+    "static/media/avatar.jpg": "./static/media/avatar.aea88506.jpg",
+    "static/media/movie-selection.png": "./static/media/movie-selection.ad709587.png",
+    "static/media/paris.png": "./static/media/paris.e7effbd8.png",
+    "static/media/todolist.png": "./static/media/todolist.6132e1e6.png",
+    "static/media/vinyl-store.png": "./static/media/vinyl-store.26e868d7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.167602ed.js",
+    "static/js/runtime-main.9e4ed27c.js",
     "static/js/2.ba4becdf.chunk.js",
     "static/css/main.53d97c50.chunk.css",
-    "static/js/main.4ef42c59.chunk.js"
+    "static/js/main.35338c43.chunk.js"
   ]
 }
